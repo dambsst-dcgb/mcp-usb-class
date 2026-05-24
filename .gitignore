@@ -1,0 +1,49 @@
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Build output (for future reference implementations)
+build/
+out/
+dist/
+target/
+*.elf
+*.hex
+*.bin
+*.o
+*.a
+*.lib
+*.obj
+*.exe
+*.dll
+*.dylib
+*.so
+*.so.*
+
+# Toolchain caches
+.cache/
+.ccache/
+.pio/
+.platformio/
+
+# Node / docs tooling, in case we add a static site later
+node_modules/
+.next/
+.vitepress/cache/
+.vitepress/dist/
+
+# Python (for any spec-validation scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Local notes that shouldn't ship
+NOTES.local.md
+TODO.local.md
+scratch/
